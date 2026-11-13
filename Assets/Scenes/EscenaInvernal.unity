@@ -265,6 +265,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 375028467}
+  - component: {fileID: 375028468}
   m_Layer: 0
   m_Name: Siren_Pivot
   m_TagString: Untagged
@@ -289,6 +290,19 @@ Transform:
   - {fileID: 2057893630}
   m_Father: {fileID: 2027945924}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &375028468
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 375028466}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc2b7e97282db0845af8fd448a51a127, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SirenRotation
+  rotationSpeed: 180
 --- !u!1 &410087039
 GameObject:
   m_ObjectHideFlags: 0
